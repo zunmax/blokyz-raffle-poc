@@ -1,0 +1,23 @@
+# Foundry build output
+/cache/
+/out/
+
+# Forge script receipts may include RPC URLs or other deployment data.
+/broadcast/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Coverage and temporary files
+/coverage/
+/lcov.info
+**/tmp/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
